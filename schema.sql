@@ -3,10 +3,13 @@
 create database vet_clinic
 
 create table animals (
-id int PRIMARY KEY,
+id int GENERATED ALWAYS AS IDENTITY,
 name varchar(50),
 date_of_birth date,
 escape_attempts int,
 neutered boolean,
-weight_kg decimal
+weight_kg decimal,
+	PRIMARY KEY (id)
 );
+
+Alter table animals add column species varchar(50);
