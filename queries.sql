@@ -73,3 +73,68 @@ from animals
 join owners on animals.owner_id = owners.id
 group by owners.full_name
 order by Total_Animals desc
+
+
+select animals.name as Animals_name, vets.name as Vet_Name, visits.visit_date 
+from animals, vets, visits
+where vets.name = 'William Tatcher'
+and vets.id = visits.vets_id
+and animals.id = visits.animals_id
+order by visit_date desc Limit 1
+
+select vets.name as Vet_Name, count(distinct (animals.id))
+from vets, animals, visits
+where vets.name = 'Stephanie Mendez'
+and vets.id = visits.vets_id
+and animals.id = visits.animals_id
+group by vet_name
+
+select vets.name as Vet_Name, species.name as Specialities
+from vets
+Left Join specializations
+on vets.id = specializations.vets_id
+Left join species
+on species.id = specializations.species_id
+
+select animals.name as Animals_Name, vets.name as Vet_Name, visits.visit_date
+from animals, vets, visits
+where vets.name = 'Stephanie Mendez'
+and visits.visit_date between '2020-04-01' and '2020-08-30'
+and vets.id = visits.vets_id
+and animals.id = visits.animals_id
+
+select animals.name as Animals_Name, count(visits.visit_date) as counts
+from animals, visits
+where animals.id = visits.animals_id
+group by Animals_name 
+order by counts desc limit 1
+
+select vets.name as Vet_Name, animals.name as Animal_name, visits.visit_date
+from animals, visits, vets
+where vets.name = 'Maisy Smith'
+and animals.id = visits.animals_id
+and vets.id = visits.vets_id
+order by visits.visit_date asc limit 1
+
+select animals.name, animals.date_of_birth,animals.escape_attempts, animals.neutered,
+animals.weight_kg, vets.name as Vet_Name, vets.age, vets.date_of_graduation,species.name,
+visits.visit_date from animals, species, vets, visits
+where animals.id = visits.animals_id
+and vets.id = visits.vets_id
+and animals.species_id = species.id
+order by visits.visit_date desc limit 1
+
+select vets.name as Vet_Name, count(visits.visit_date)
+from vets, visits
+where vets.id = visits.vets_id
+and vets.id not in(select vets_id from specializations)
+group by Vet_Name
+
+select vets.name as Vet_Name, species.name as Species_Name, 
+count(visits.visit_date) as visit_count from vets, visits, species, animals
+where  vets.name = 'Maisy Smith'
+and vets.id = visits.vets_id
+and species.id = animals.species_id
+and animals.id = visits.animals_id
+group by Vet_Name, Species_Name
+order by visit_count desc limit 1

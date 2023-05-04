@@ -36,3 +36,26 @@ Alter table animals add constraint FK_species Foreign key (species_id) reference
 
 Alter table animals add column owner_id int;
 Alter table animals add constraint FK_owners Foreign key (owner_id) references owners(id);
+
+create table vets (
+	id int GENERATED ALWAYS AS IDENTITY,
+	name varchar(50),
+	age int,
+	date_of_graduation date,
+	primary key (id)
+);
+
+create table specializations (
+id int GENERATED ALWAYS AS IDENTITY,
+species_id int references species(id),
+vets_id int references vets(id),
+primary key (id)
+);
+
+create table visits (
+	id int generated always as IDENTITY,
+	animals_id int references animals (id),
+	vets_id int references vets(id),
+	visit_date date,
+	primary key (id)
+);
