@@ -9,19 +9,10 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-- [💻 Video Presentation](#video-presentation)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
+  - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -62,14 +53,6 @@
   </ul>
 </details>
 
-<!-- VIDEO PRESENTATION -->
-
-## 💻 Video Presentation <a name="video-presentation"></a>
-
-- [Video Presentation Link - N/A](N/A)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- Features -->
 
@@ -82,60 +65,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link - N/A](N/A)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need: SQL
-
-### Setup
-
-Clone this repository to your desired folder:
-
-git clone git@github.com:dheerajsachdeva/vet_clinic_database.git
-
-### Install
-
-Install this project with: by cloning git@github.com:dheerajsachdeva/vet_clinic_database.git
-
-### Usage
-
-To run the project, execute the following command: cd vet_clinic_database
-
-Create database
-
-Connect to your PostgreSQL server with psql
-
-psql postgres=#
-
-Create the database vet_clinic
-
-postgres=# CREATE DATABASE vet_clinic;
-
-CREATE DATABASE Connect to your database vet_clinic. Inside your current session do: postgres=# \c vet_clinic You are now connected to database "vet_clinic" as user "postgres". vet_clinic=# That's it! Congratulations, you have created your database and connected to it. Next, we will add a table.
-
-Use schema.sql to create all tables. Use data.sql to populate tables with sample data. Check queries.sql for examples of queries that can be run on a newly created database.
-### Run tests
-
-N/A
-
-## Deployment
-
-You can deploy this project using: git@github.com:dheerajsachdeva/vet_clinic_database.git
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
