@@ -9,15 +9,12 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -26,32 +23,6 @@
 
 **[Vet clinic database]** is based on SQL.
 
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href=#>SQL</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href=#>Local Machine</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href=#>Postgre SQL</a></li>
-  </ul>
-</details>
 
 
 <!-- Features -->
@@ -70,6 +41,7 @@
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="DHEERAJ SACHDEVA"></a>
+## 👥 Authors <a name="Kayode Joseph Olatunji"></a>
 
 
 👤 **Author**
@@ -88,7 +60,7 @@
 
 - [ ] **[ Add new tables]**
 - [ ] **[Add new data]**
-- [ ] **[Implement more queries]**
+- [ ] **[Schema and ERD Diagram]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,21 +90,6 @@ I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[What is Vet Clinic DB?]**
-
-  - [In this project, we are creating DB in SQL]
-
-- **[What programming languages used in this project?]**
-
-  - [SQL]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
