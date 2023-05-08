@@ -130,4 +130,3 @@ INSERT INTO visits (animal_id, vet_id, date_of_visit) SELECT * FROM (SELECT id F
 insert into owners (full_name, email) select 'Owner ' || generate_series(1,2500000), 'owner_' || generate_series(1,2500000) || '@mail.com';
 
 
-CREATE INDEX vets_id_desc ON visits(vets_id asc);
