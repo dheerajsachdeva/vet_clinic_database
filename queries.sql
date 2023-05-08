@@ -139,5 +139,15 @@ and animals.id = visits.animals_id
 group by Vet_Name, Species_Name
 order by visit_count desc limit 1
 
+-- Performance and Indexing
 
+-- Explain analyse SELECT * FROM visits where vet_id = 2;
 explain analyze SELECT * FROM visits where vets_id = 2;
+
+
+-- Explain analyse SELECT * FROM owners where email = 'owner_18327@mail.com';
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+
+-- Explain analyse SELECT COUNT(*) FROM visits where animal_id = 4;
+explain analyze SELECT COUNT(*) FROM visits where animals_id = 4;
