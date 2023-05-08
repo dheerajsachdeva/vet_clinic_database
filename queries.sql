@@ -138,3 +138,6 @@ and species.id = animals.species_id
 and animals.id = visits.animals_id
 group by Vet_Name, Species_Name
 order by visit_count desc limit 1
+
+
+explain analyze SELECT * FROM visits where vets_id = 2;
