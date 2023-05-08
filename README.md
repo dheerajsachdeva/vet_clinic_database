@@ -26,6 +26,8 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
 <details>
   <summary>Client</summary>
   <ul>
@@ -96,16 +98,13 @@ We would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
 - **[What is Vet Clinic DB?]**
 
-  - [In this project, we used index]
-  - [In this project, we are optimizing the performance of the database]
+  - [In this project, we are creating DB in SQL]
 
 - **[What programming languages used in this project?]**
 
-  - [SQL]
+  - [Postgre SQL]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
