@@ -77,6 +77,7 @@ Kayode Joseph Olatunji
 - [ ] **[ Add new tables]**
 - [ ] **[Add new data]**
 - [ ] **[Implement more queries]**
+- [ ] **[Create Schema and ERD Diagram]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
