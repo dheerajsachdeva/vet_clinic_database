@@ -59,3 +59,17 @@ create table visits (
 	visit_date date,
 	primary key (id)
 );
+
+-- Performance and indexing.
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+CREATE INDEX animals_id_desc ON owners(animals_id desc);
+
+
+CREATE INDEX email_asc ON owners(email ASC);
+
+
+CREATE INDEX vets_id_desc ON visits(vets_id asc);
+
+
