@@ -79,6 +79,16 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[Add more data and tables realted to clinic and vets]**
+- [ ] **[Add more relationship between the entities]**
+- [ ] **[Schema and ERD Diagram]**
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
