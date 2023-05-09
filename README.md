@@ -20,6 +20,9 @@
 
 # 📖 [Vet clinic database] <a name="Vet clinic database is a database project where we create data structure using relational database for a vet clinic"></a>
 
+## Schema diagram
+![screenshot](./schema.jpg)
+
 **[Vet clinic database]** is based on SQL.
 
 ## 🛠 Built With <a name="built-with"></a>
