@@ -10,6 +10,9 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
   - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -21,6 +24,7 @@
 # 📖 [Vet clinic database] <a name="Vet clinic database is a database project where we create data structure using relational database for a vet clinic"></a>
 
 ## Schema diagram
+
 ![screenshot](./schema.jpg)
 
 **[Vet clinic database]** is based on SQL.
@@ -61,6 +65,24 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+- clone this repo:https://github.com/dheerajsachdeva/vet_clinic_database
+- cd cd SQL-Query
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Git installed in desktop
+- Code editor of your choice i.e; Visual Studio Code
+- PostgresSQL
+- Terminal of your choice i.e; Git Bash
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 👥 Authors <a name="DHEERAJ SACHDEVA"></a>
 
 👤 **Author**
@@ -78,6 +100,16 @@
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/olatunji-kayode/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[Add more data and tables realted to clinic and vets]**
+- [ ] **[Add more relationship between the entities]**
+- [ ] **[Schema and ERD Diagram]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
